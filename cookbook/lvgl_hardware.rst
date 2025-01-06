@@ -15,7 +15,7 @@ Lanbon L8
 .. _lvgl-cookbook-lanbon-l8:
 
 .. note::
-  
+
     Choose a model that works with Apple HomeKit because those are WiFi versions with the internal antenna connected to the ESP32. Do NOT buy a version that is powered by Tuya Smart Life because the internal antenna is connected to the Tuya chip.
 
 .. code-block:: yaml
