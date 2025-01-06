@@ -1,7 +1,7 @@
 .. _lvgl-cookbook:
 
 LVGL: Displays and Touch screens
-=====================
+================================
 
 .. seo::
     :description: Recipes for common hardware platforms used for LVGL Displays with ESPHome
