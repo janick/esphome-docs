@@ -1,4 +1,4 @@
-.. _lvgl-cookbook:
+.. _lvgl-cookbook-hardware:
 
 LVGL: Displays and Touch screens
 ================================
