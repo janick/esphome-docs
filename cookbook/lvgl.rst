@@ -15,7 +15,7 @@ Here are a couple recipes for various interesting things you can do with :doc:`/
 
 .. note::
 
-    The examples below assume you've set up LVGL correctly with your display and its input device, and you have the knowledge to set up various components in ESPHome. Some examples use absolute positioning for a screen with dimensions of ``240x320px``; if your display's dimensions differ, you'll need to adjust them in order to obtain the expected results. See :doc:`/cookbook/lvgl-hardware` for example hardware platform configurations.
+    The examples below assume you've set up LVGL correctly with your display and its input device, and you have the knowledge to set up various components in ESPHome. Some examples use absolute positioning for a screen with dimensions of ``240x320px``; if your display's dimensions differ, you'll need to adjust them in order to obtain the expected results. See :doc:`/cookbook/lvgl_hardware` for example hardware platform configurations.
 
 .. _lvgl-cookbook-relay:
 
