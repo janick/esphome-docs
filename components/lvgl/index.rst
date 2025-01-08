@@ -157,7 +157,7 @@ The following configuration variables apply to the main ``lvgl`` component, in o
 - **draw_rounding** (*Optional*, int): An optional value to use for rounding draw areas to a specified boundary. Defaults to 2. Useful for displays that require draw windows to be on specified boundaries (usually powers of 2.)
 - **log_level** (*Optional*, string): Set the logger level specifically for the messages of the LVGL library: ``TRACE``, ``INFO``, ``WARN``, ``ERROR``, ``USER``, ``NONE``. Defaults to ``WARN``.
 - **byte_order** (*Optional*, int16): The byte order of the data LVGL outputs; either ``big_endian`` or ``little_endian``. Defaults to ``big_endian``.
-- **disp_bg_color** (*Optional*, :ref:`color <lvgl-color>`): Solid color used to fill the background. Can be changed at runtime with the ``lvgl.update`` action.
+- **bg_color** (*Optional*, :ref:`color <lvgl-color>`): Solid color used to fill the background. Can be changed at runtime with the ``lvgl.update`` action.
 - **disp_bg_image** (*Optional*, :ref:`image <display-image>`):  The ID of an existing image configuration, to be used as background wallpaper. To change the image at runtime use the ``lvgl.update`` action. Also see :ref:`lvgl-widget-image` for a note regarding supported image formats.
 - **default_font** (*Optional*, ID): The ID of the :ref:`font <lvgl-fonts>` used by default to render the text or symbols. Defaults to LVGL's internal ``montserrat_14`` if not specified.
 - **style_definitions** (*Optional*, list): A batch of style definitions to use in LVGL widget's ``styles`` configuration. See :ref:`below <lvgl-theme>` for more details.
